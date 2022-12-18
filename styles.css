@@ -1,15 +1,11 @@
-
-/* Your CSS Code here. */
 .holder{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 15px;
-    row-gap: 15px;
-  }
- 
-  .box{
-    min-width: 150px;
-    border: 2px solid black;
-  }
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+}
+
+.grid_item{
+  border: 1px solid black;
+}
